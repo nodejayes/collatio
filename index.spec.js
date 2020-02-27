@@ -1,16 +1,4 @@
-# vigilia
-make Performance Benchmarks for Javascript
-
-#### Installation
-
-```bash
-npm install vigillia
-```
-
-#### Usage
-
-```javascript
-const {Benchmark} = require('./index');
+const {Benchmark} = require('./vigillia');
 
 const b = new Benchmark('Test Loops');
 
@@ -39,9 +27,5 @@ b.run('for i loop', d => {
     }
 });
 
-// print the Data into the console
 b.print(3);
-
-// access the generated statistical data of the benchmark
 console.info(b.stats);
-```

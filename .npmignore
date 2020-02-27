@@ -1,0 +1,5 @@
+.idea
+node_modules
+index.js
+index.spec.js
+webpack.config.js
