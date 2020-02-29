@@ -1,12 +1,21 @@
 {
   "name": "collatio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "collatio.js",
   "types": "collatio.d.ts",
   "scripts": {
     "build": "webpack-cli",
     "test": "npm run build && node ./index.spec.js",
     "release": "npm run test && npm publish"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodejayes/collatio"
+  },
+  "bugs": {
+    "url": "https://github.com/nodejayes/collatio/issues",
+    "email": "markusgilg@outlook.de"
   },
   "dependencies": {
     "ts-tooling": "^3.0.0-beta.2"

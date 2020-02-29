@@ -1,16 +1,16 @@
-# vigilia
+# collatio
 make Performance Benchmarks for Javascript
 
 #### Installation
 
 ```bash
-npm install vigillia
+npm install collatio
 ```
 
 #### Usage
 
 ```javascript
-const {Benchmark} = require('./index');
+const {Benchmark} = require('collatio');
 
 const b = new Benchmark('Test Loops');
 
