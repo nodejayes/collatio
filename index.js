@@ -1,5 +1,5 @@
-const {StopWatch} = require('ts-tooling/lib/utils/stopwatch/index');
-const {ListSortOrder} = require('ts-tooling/lib/types/array');
+const {StopWatch} = require('ts-tooling/src/utils/stopwatch');
+const {ListSortOrder} = require('ts-tooling/src/types/array');
 
 class Benchmark {
     constructor(name) {

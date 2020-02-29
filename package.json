@@ -9,7 +9,7 @@
     "release": "npm run test && npm publish"
   },
   "dependencies": {
-    "ts-tooling": "^2.6.4"
+    "ts-tooling": "^3.0.0-beta.2"
   },
   "devDependencies": {
     "webpack": "^4.41.6",
