@@ -1,6 +1,6 @@
 module.exports = {
     entry: {
-        'vigillia': './index.js',
+        'collatio': './index.js',
     },
     mode: 'production',
     resolve: {
@@ -9,7 +9,7 @@ module.exports = {
     output: {
         path: __dirname,
         filename: '[name].js',
-        library: 'vigillia',
+        library: 'collatio',
         libraryTarget: 'umd',
         globalObject: 'this',
     },

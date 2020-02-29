@@ -1,8 +1,8 @@
 {
-  "name": "vigilia",
+  "name": "collatio",
   "version": "1.0.0",
-  "main": "vigillia.js",
-  "types": "vigillia.d.ts",
+  "main": "collatio.js",
+  "types": "collatio.d.ts",
   "scripts": {
     "build": "webpack-cli",
     "test": "npm run build && node ./index.spec.js",

@@ -1,4 +1,4 @@
-const {Benchmark} = require('./vigillia');
+const {Benchmark} = require('./collatio');
 
 const b = new Benchmark('Test Loops');
 
