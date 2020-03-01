@@ -1,12 +1,12 @@
 {
   "name": "collatio",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "collatio.js",
   "types": "collatio.d.ts",
   "scripts": {
-    "build": "webpack-cli",
-    "test": "npm run build && node ./index.spec.js",
-    "release": "npm run test && npm publish"
+    "test": "node ./index.spec.js",
+    "release": "npm run test && npm publish",
+    "release:beta": "npm run test && npm publish --tag beta"
   },
   "license": "MIT",
   "repository": {
@@ -18,10 +18,6 @@
     "email": "markusgilg@outlook.de"
   },
   "dependencies": {
-    "ts-tooling": "^3.0.0-beta.2"
-  },
-  "devDependencies": {
-    "webpack": "^4.41.6",
-    "webpack-cli": "^3.3.11"
+    "ts-tooling": "^3.0.0-beta.5"
   }
 }
